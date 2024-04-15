@@ -5,9 +5,11 @@ import { Title } from "../../component/Text/title";
 export const Index = () => {
   return (
     <div>
-      <Title>Challenge ReactJS</Title>
-      <Text>Haz click en el botón para ir al contenido</Text>
-      <Button>Iniciar</Button>
+      <Title id="id_page_title">Challenge ReactJS</Title>
+      <Text id="id_page_description">
+        Haz click en el botón para ir al contenido
+      </Text>
+      <Button id="id_button_start">Iniciar</Button>
     </div>
   );
 };
